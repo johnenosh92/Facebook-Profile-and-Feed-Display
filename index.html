@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+   
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="style.css" >
+
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+	<!-- Jumbotron that displays Name and Profile Picture of user and buttons to show Profile Details or feed-->
+    <div class="jumbotron col-xs-12" style="text-align: center;">
+        <img class="profilePicture" src="#"></img></br><!-- To display Profile Picture -->
+        <h1 class="userName">JOHN ENOSH</h1><!-- To display User Name -->
+        <h3>This is an interface to access your Facebook details</h3><br>
+        <!-- These two buttons lets user choose whether to load Profile Information or view feed -->
+        <button type="button" id="facebookBtn" class="btn btn-success" >Profile Information</button>
+        <button type="button" id="feedBTN" class="btn btn-success">View last 5 posts in your Feed</button>
+    </div><!-- End of Jumbotron -->
+
+    <!-- Panel to display Profile Information -->
+    <div class="panel panel-primary" id="panel1">
+      <div class="panel-heading"><h3 style="text-align: center;">Profile Information</h3></div>
+      <div class="panel-body" id="profilePanel">
+        <div class="col-md-6 col-xs-12">
+          <h3>EMAIL</h3> <h4 id="myEmail"></h4> 
+        </div>
+        <div class="col-md-6 col-xs-12">
+          <h3>HOMETOWN</h3><h4 id="home"></h4>
+        </div>
+        <div class="col-md-6 col-xs-12">
+          <h3>BIRTHDAY</h3><h4 id="bDay"></h4> 
+        </div>
+        <div class="col-md-6 col-xs-12">
+          <h3>LIVES IN</h3> <h4 id="location"></h4>
+        </div>
+        <a href="#" id="fbIcon" target="_blank"><button type="button" id="facebookPage" class="btn btn-primary " >Go to Facebook Page</button></img></a>
+      </div><!-- end of panel-body -->
+    </div><!-- end of panel -->
+
+    <!-- Panel to show Facebook Feed -->
+    <div id="pane2"></div>
+
+  </div><!-- end of row -->
+</div><!-- end of container -->
+
+<!-- Latest compiled and minified JavaScript -->
+
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+
+</body>
+
+</html>

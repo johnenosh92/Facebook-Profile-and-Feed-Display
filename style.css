@@ -1,0 +1,65 @@
+.panel{
+	margin: auto;
+}
+
+#facebookBtn{
+	background-color: #4267B2;
+	color:white;
+}
+/*Css for all buttons*/
+.btn, .btn-primary, #feedBTN{
+	background-color: #4267B2;
+	color:white;
+}
+
+.jumbotron{
+	border:1px solid #4267B2;
+
+}
+
+.fbFeed{
+	margin-left:  auto;
+	margin-right: auto;
+	}
+
+#pane2{
+	text-align: center;
+
+}
+
+.panel-default{
+	background-color: #4267B2;
+
+}
+
+#panel1{
+	text-align: center;
+
+}
+
+#fbImg{
+	width: 60px;
+	height: 60px;
+	margin-top:  auto;
+	margin-bottom: auto;
+}
+
+#fbIcon{
+	margin: auto;
+	text-align: center;
+}
+
+#profilePanel{
+	text-align: center;
+	border-top: 0px;
+	margin-top: 0px;
+}
+
+.storyPanel{
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+.profilePicture {
+    border-radius: 50%;
+}
