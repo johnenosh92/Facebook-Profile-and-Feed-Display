@@ -1,11 +1,10 @@
-# Faceebook Extract
-## This is a page which displays your Facebook profile details and last 5 feed.
-## Before loading the page, please enter fill in your facebook graph API access token 
-## inside the app.js file into the commented area which says "YOUR ACCESS TOKEN HERE"
-## This access need few fields to be checked while generating your access token which are as follows:
+# Faceebook Profile Information and Feed
+## This is a page which displays your Facebook Profile Information and last 5 Facebook Feed.
+## Firstly, you will be propmted to enter a facebook access token
+## This access token needs to Get user data permissions of:
 ### email
 ### user_birthday
 ### user_hometown
 ### user_location
 ### user_posts
-## Generate an access token and paste it in the right place and load the index.html onto your browser to view your Facebook details.
+## Once the right access token is submitted, the page is then loaded.
